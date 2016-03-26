@@ -3,20 +3,23 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <!-- <link rel="stylesheet" href="css/app.css" media="screen"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="css/app.css" media="screen">
     <title>Ping Pong</title>
   </head>
   <body>
-    <form id="pingpong">
-      <label for="goal">Enter a number:</label>
-      <input id="goal" type="number" >
-      <button type="submit">Submit</button>
-    </form>
-    <form id="signup">
-      <label for="email">Enter your email:</label>
-      <input id="email" type="text" >
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="solution"></ul>
+    <div class=container>
+      <form id="pingpong" class="padding-top-5px">
+        <label for="goal">Enter a number:</label>
+        <input id="goal" type="number" >
+        <button type="submit">Submit</button>
+      </form>
+      <form id="signup" class="padding-top-5px">
+        <label for="email">Enter your email:</label>
+        <input id="email" type="text" >
+        <button type="submit">Submit</button>
+      </form>
+      <ul id="solution"></ul>
+    </div>
   </body>
 </html>
