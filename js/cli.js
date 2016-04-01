@@ -3,10 +3,9 @@ var prompt = require('prompt');
 prompt.start();
 
 prompt.get('goal', function(err, result) {
-  var result = pingPong(result.goal);
-  var output = [];
+  var output = pingPong(result.goal);
 
-  result.forEach(function(element) {
+  output.forEach(function(element) {
     output.push(element);
   });
   console.log(output.join(' '));
